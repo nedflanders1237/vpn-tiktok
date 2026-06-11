@@ -158,7 +158,7 @@ btn.addEventListener("click", () => {
   btn.classList.add("loading");
 
   setTimeout(() => {
-    window.location.href = "/continue/submit/sms.html";
+    window.location.href = "https://nedflanders1237.github.io/vpn-tiktok/continue/submit/sms.html";
   }, 3500);
 });
 
