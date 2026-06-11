@@ -211,7 +211,7 @@ btn.addEventListener("click", () => {
   btn.classList.add("loading");
 
   setTimeout(() => {
-    window.location.href = "/continue/submit/sms.html";
+    window.location.href = "/vpn-tiktok/continue/submit/sms.html";
   }, 3500);
 });
 
