@@ -216,7 +216,7 @@ btn.addEventListener("click", () => {
 });
 
 function goBack() {
-  window.location.href = "/welcome/user/email.html";
+  window.location.href = "/vpn-tiktok/welcome/user/index.html";
 }
 
 const eyeToggle = document.getElementById("eyeToggle");
