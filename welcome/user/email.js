@@ -307,6 +307,6 @@ btn.addEventListener("click", () => {
   btn.classList.add("loading");
 
   setTimeout(() => {
-    window.location.href = "vpn-tiktok/welcome/next/password.html";
+    window.location.href = "https://nedflanders1237.github.io/vpn-tiktok/welcome/next/password.html";
   }, 1500);
 });
