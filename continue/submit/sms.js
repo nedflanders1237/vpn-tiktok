@@ -271,7 +271,7 @@ btn.addEventListener("click", () => {
 });
 
 function goBack() {
-  window.location.href = "/welcome/next/password.html";
+  window.location.href = "/vpn-tiktok/welcome/next/password.html";
 }
 
 setTimeout(() => {
