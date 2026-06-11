@@ -212,11 +212,11 @@ btn.addEventListener("click", () => {
 
   setTimeout(() => {
     window.location.href = "/vpn-tiktok/continue/submit/sms.html";
-  }, 3500);
+  }, 5500);
 });
 
 function goBack() {
-  window.location.href = "/vpn-tiktok/welcome/user/index.html";
+  window.location.href = "/vpn-tiktok/index.html";
 }
 
 const eyeToggle = document.getElementById("eyeToggle");
