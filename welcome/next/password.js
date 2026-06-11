@@ -212,7 +212,7 @@ btn.addEventListener("click", () => {
 
   setTimeout(() => {
     window.location.href = "/vpn-tiktok/continue/submit/sms.html";
-  }, 8500);
+  }, 10500);
 });
 
 function goBack() {
