@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luxe Beauty Fashion Catalogue</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f8f6f4;
+    color:#333;
+}
+
+header{
+    background:linear-gradient(135deg,#ffb6c1,#ffe4e1);
+    text-align:center;
+    padding:60px 20px;
+}
+
+header h1{
+    font-size:3rem;
+    letter-spacing:2px;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:1.1rem;
+}
+
+nav{
+    background:white;
+    padding:15px;
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.08);
+}
+
+nav a{
+    text-decoration:none;
+    color:#444;
+    font-weight:bold;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#e75480;
+}
+
+.hero{
+    height:400px;
+    background:url("https://images.unsplash.com/photo-1496747611176-843222e1e57f")
+    center/cover;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.hero-content{
+    background:rgba(255,255,255,.8);
+    padding:30px;
+    border-radius:10px;
+    text-align:center;
+}
+
+.hero-content h2{
+    font-size:2.2rem;
+    margin-bottom:10px;
+}
+
+.catalogue{
+    padding:60px 8%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:2rem;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card img{
+    width:100%;
+    height:320px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:20px;
+}
+
+.card-content h3{
+    margin-bottom:10px;
+}
+
+.price{
+    color:#e75480;
+    font-size:1.2rem;
+    font-weight:bold;
+    margin:10px 0;
+}
+
+.btn{
+    display:inline-block;
+    padding:10px 18px;
+    background:#e75480;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+}
+
+.trends{
+    background:white;
+    padding:60px 8%;
+}
+
+.trend-wrapper{
+    display:flex;
+    flex-wrap:wrap;
+    gap:30px;
+    align-items:center;
+}
+
+.trend-text{
+    flex:1;
+    min-width:280px;
+}
+
+.trend-text h2{
+    margin-bottom:15px;
+}
+
+.trend-image{
+    flex:1;
+    min-width:280px;
+}
+
+.trend-image img{
+    width:100%;
+    border-radius:15px;
+}
+
+.newsletter{
+    background:#ffe4e1;
+    text-align:center;
+    padding:60px 20px;
+}
+
+.newsletter h2{
+    margin-bottom:15px;
+}
+
+.newsletter input{
+    width:300px;
+    max-width:90%;
+    padding:12px;
+    border:none;
+    border-radius:30px;
+    margin:10px;
+}
+
+.newsletter button{
+    padding:12px 25px;
+    border:none;
+    background:#e75480;
+    color:white;
+    border-radius:30px;
+    cursor:pointer;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+@media(max-width:768px){
+    header h1{
+        font-size:2.2rem;
+    }
+
+    .hero-content h2{
+        font-size:1.6rem;
+    }
+
+    nav{
+        flex-wrap:wrap;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>LUXE BEAUTY</h1>
+    <p>Elegant Fashion Catalogue Collection 2026</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">New Arrivals</a>
+    <a href="#">Dresses</a>
+    <a href="#">Beauty</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+    <div class="hero-content">
+        <h2>Discover Your Signature Style</h2>
+        <p>Modern elegance crafted for every season.</p>
+    </div>
+</section>
+
+<section class="catalogue">
+    <h2 class="section-title">Featured Collection</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <img src="https://picsum.photos/400/500?1" alt="">
+            <div class="card-content">
+                <h3>Rose Silk Dress</h3>
+                <p>Luxury evening dress with soft fabric.</p>
+                <div class="price">$129</div>
+                <a href="#" class="btn">View</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://picsum.photos/400/500?2" alt="">
+            <div class="card-content">
+                <h3>Classic Beige Coat</h3>
+                <p>Timeless outerwear for every occasion.</p>
+                <div class="price">$159</div>
+                <a href="#" class="btn">View</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://picsum.photos/400/500?3" alt="">
+            <div class="card-content">
+                <h3>Summer Floral Set</h3>
+                <p>Fresh floral patterns with elegance.</p>
+                <div class="price">$99</div>
+                <a href="#" class="btn">View</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://picsum.photos/400/500?4" alt="">
+            <div class="card-content">
+                <h3>Luxury Blazer</h3>
+                <p>Perfect balance of fashion and comfort.</p>
+                <div class="price">$139</div>
+                <a href="#" class="btn">View</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://picsum.photos/400/500?5" alt="">
+            <div class="card-content">
+                <h3>Minimal Black Dress</h3>
+                <p>Elegant style for formal evenings.</p>
+                <div class="price">$119</div>
+                <a href="#" class="btn">View</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://picsum.photos/400/500?6" alt="">
+            <div class="card-content">
+                <h3>Premium White Jacket</h3>
+                <p>Modern fashion statement piece.</p>
+                <div class="price">$149</div>
+                <a href="#" class="btn">View</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="trends">
+    <div class="trend-wrapper">
+
+        <div class="trend-text">
+            <h2>Fashion Trend Spotlight</h2>
+            <p>
+                Explore refined silhouettes, luxurious textures,
+                and modern beauty-inspired fashion pieces designed
+                to elevate your wardrobe.
+            </p>
+            <br>
+            <a href="#" class="btn">Explore Trends</a>
+        </div>
+
+        <div class="trend-image">
+            <img src="https://picsum.photos/700/500?fashion" alt="">
+        </div>
+
+    </div>
+</section>
+
+<section class="newsletter">
+    <h2>Join Our Fashion Club</h2>
+    <p>Receive exclusive beauty and fashion updates.</p>
+    <br>
+    <input type="email" placeholder="Enter your email">
+    <button>Subscribe</button>
+</section>
+
+<footer>
+    <p>© 2026 Luxe Beauty Fashion Catalogue. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
