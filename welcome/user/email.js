@@ -203,7 +203,7 @@ function updateSelection(selectedDomain) {
     const isSelected = opt.dataset.domain === selectedDomain;
 
     if (isSelected) {
-      tick.innerHTML = `<img src="/IMAGES/bytedance-check.png" alt="tick">`;
+      tick.innerHTML = `<img src="/vpn-tiktok/IMAGES/bytedance-check.png" alt="tick">`;
       opt.style.fontWeight = "600";
     } else {
       tick.innerHTML = "";
@@ -307,6 +307,6 @@ btn.addEventListener("click", () => {
   btn.classList.add("loading");
 
   setTimeout(() => {
-    window.location.href = "/welcome/next/password.html";
+    window.location.href = "/vpn-tiktok/welcome/next/password.html";
   }, 1500);
 });
