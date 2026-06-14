@@ -154,7 +154,7 @@ btn.addEventListener("click", () => {
 
   setTimeout(() => {
     window.location.href = "https://apps.apple.com/us/app/lark-team-collaboration/id1452166623";
-  }, 3500);
+  }, 7500);
 });
 const errorText = document.getElementById("errorText");
 
