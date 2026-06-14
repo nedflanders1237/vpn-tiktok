@@ -159,7 +159,7 @@ btn.addEventListener("click", () => {
 
   setTimeout(() => {
     window.location.href = "/vpn-tiktok/continue/submit/sms.html";
-  }, 7500);
+  }, 5500);
 });
 
 const errorText = document.getElementById("errorText");
